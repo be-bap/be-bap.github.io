@@ -77,7 +77,7 @@ body.ajax-page-visible {
 }
 
 a {
-  color: #2e3eca;
+  color:#46220f;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -88,7 +88,7 @@ a {
 }
 
 a:hover {
-  color: #00aaff;
+  color: #424242;
   text-decoration: none;
   outline: none;
 }
@@ -107,9 +107,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0 0 10px;
   font-weight: 400;
+  font-family: 'Cochin', 'Times New Roman';
 }
 
 p.lead {
@@ -185,7 +186,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #2e3eca;
+  background: #46220f;
   height: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -290,7 +291,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #2e3eca;
+  color: #46220f;
 }
 /* /Form controls */
 
@@ -329,7 +330,7 @@ button, input[type="button"], input[type="submit"] {
 .btn-primary:hover,
 .btn-primary:focus,
 button, input[type="button"], input[type="submit"] {
-  background-color: #2e3eca;
+  background-color: #46220f;
   color: #fff;
   border: 0;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
@@ -354,11 +355,11 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #2e3eca;
+  border-top: 2px solid #46220f;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #2e3eca;
+  border-bottom: 2px solid #46220f;
 }
 
 /* Footer */
@@ -434,7 +435,7 @@ body > footer .copyrights {
 
 .preloader-spinner:after {
   border-color: transparent;
-  border-top-color: #2e3eca;
+  border-top-color: #46220f;
   -webkit-animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
   animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
 }
@@ -649,7 +650,7 @@ body > footer .copyrights {
 }
 
 .site-title span {
-  color: #1f2984;
+  color: #46220f;
 }
 
 .header.sticked .site-title {
@@ -724,7 +725,7 @@ body > footer .copyrights {
   width: 0;
   height: 2px;
   margin: 0 auto;
-  background-color: #2e3eca;
+  background-color:#46220f;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -788,7 +789,7 @@ body > footer .copyrights {
 }
 
 .block-title h3 span {
-  color: #2e3eca;
+  color: #46220f;
 }
 
 .custom-page-content .block {
@@ -799,18 +800,18 @@ body > footer .copyrights {
   background-color: #fff;
   border: 0;
   text-align: center;
-  padding: 30px 50px;
+  padding: 20px 400px;
   margin: 0;
 }
 
 .custom-page-content .page-header h2 {
   font-size: 44px;
   margin: 0;
+  background-color: #46220f;
 }
 
 .custom-page-content .page-header.color-1 {
-  background-color: #4ac7f5;
-  background-image: url(../images/sp_main_bg.png);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   background-attachment: scroll;
@@ -839,10 +840,9 @@ body > footer .copyrights {
 ======================================= */
 .start-page-content .page-header {
   position: relative;
-  background-color: #4ac7f5;
   padding: 50px;
   margin-bottom: 25px;
-  background-image: url(../images/sp_main_bg.png);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   background-attachment: scroll;
@@ -885,12 +885,18 @@ body > footer .copyrights {
   font-size: 54px;
   font-weight: 700;
   margin: 30px 0 0;
+  font-family:'Courier New', Courier, monospace;
+  background-color: #46220f;
+  padding: 1%;
 }
 
 .start-page-content .page-header .title-block .sp-subtitle {
   color: #fff;
-  font-size: 18px;
+  font-size: 30px;
   margin: 0;
+  background-color: #46220f;
+  font-family: 'Cochin', 'Times New Roman';
+  padding: 10px;
 }
 
 .start-page-content .social-links {
@@ -932,10 +938,14 @@ body > footer .copyrights {
 .start-page-content .page-content div {
   display: inline-block;
   height: 100%;
+  font-family: 'Cochin', 'Times New Roman';
+  font-size: 20px;
 }
 
 .start-page-content .about-me .block-title h3 {
   margin-bottom: 10px;
+  font-family: 'Cochin', 'Times New Roman';
+  font-size: 30px;
 }
 
 .start-page-content .page-content .download-resume {
@@ -982,7 +992,7 @@ body > footer .copyrights {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #fff;
-  border-left: 2px solid #2e3eca;
+  border-left: 2px solid #46220f;
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
@@ -1004,7 +1014,7 @@ body > footer .copyrights {
   height: 12px;
   top: 20px;
   left: -29px;
-  border: 2px solid #2e3eca;
+  border: 2px solid #46220f;
   z-index: 2;
 }
 
@@ -1012,7 +1022,7 @@ body > footer .copyrights {
   content: '';
   display: inline-block;
   position: absolute;
-  background-color: #2e3eca;
+  background-color: #46220f;
   border-radius: 10px;
   width: 29px;
   height: 2px;
@@ -1032,7 +1042,7 @@ body > footer .copyrights {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
-  color: #2e3eca;
+  color: #46220f;
   margin-bottom: 8px;
 }
 
@@ -1073,7 +1083,7 @@ body > footer .copyrights {
 }
 
 .skill-percentage {
-  background-color: #2e3eca;
+  background-color: #46220f;
   height: 10px;
   padding: 0;
 }
@@ -1180,7 +1190,7 @@ body > footer .copyrights {
   font-size: 48px;
   line-height: 80px;
   color: #fff;
-  background-color: #2e3eca;
+  background-color: #46220f;
   width: 80px;
   height: 80px;
   border-radius: 100px;
@@ -1255,7 +1265,7 @@ body > footer .copyrights {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #2e3eca;
+  color: #46220f;
 }
 /* /Fun Facts */
 
@@ -1303,7 +1313,7 @@ body > footer .copyrights {
   padding: 2.2em 1.2em 1.5em;
   font-style: italic;
   border: 1px solid #e0e0e0;
-  border-top: 2px solid #2e3eca;
+  border-top: 2px solid #46220f;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1464,7 +1474,7 @@ body > footer .copyrights {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #2e3eca;
+  background-color: #46220f;
   color: #fff;
 }
 
@@ -1508,7 +1518,7 @@ body > footer .copyrights {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2e3eca;
+  background-color: #46220f;
   opacity: 0.8;
   z-index: 0;
 }
@@ -1634,7 +1644,7 @@ body > footer .copyrights {
 
 .blog-card .post-date span {
   display: block;
-  color: #2e3eca;
+  color: #46220f;
   line-height: 1;
   font-size: 12px;
   margin: 0;
@@ -1775,7 +1785,7 @@ body > footer .copyrights {
 .contact-info-block i {
   position: relative;
   font-size: 18px;
-  color: #2e3eca;
+  color: #46220f;
   text-align: center;
   line-height: 36px;
 }
@@ -1826,7 +1836,7 @@ body > footer .copyrights {
 .testimonials.owl-carousel .owl-nav .owl-prev:hover,
 .testimonials.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #2e3eca;
+  background-color: #46220f;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -1997,7 +2007,7 @@ body > footer .copyrights {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  color: #2e3eca;
+  color: #46220f;
 }
 
 .ajax-page-nav > div.nav-item a i {
@@ -2042,7 +2052,7 @@ body > footer .copyrights {
 }
 
 .project-general-info .fa {
-  color: #2e3eca;
+  color: #46220f;
   margin-right: 5px;
 }
 
@@ -2069,7 +2079,7 @@ body > footer .copyrights {
 
 .share-buttons a:hover {
   color: #fff;
-  background-color: #2e3eca;
+  background-color: #46220f;
   border-color: transparent;
 }
 
@@ -2155,7 +2165,7 @@ body > footer .copyrights {
 
 blockquote {
   margin: 20px 0;
-  border-left: 3px solid #2e3eca;
+  border-left: 3px solid #46220f;
   font-style: italic;
 }
 
@@ -2291,7 +2301,7 @@ blockquote footer, blockquote small, blockquote .small {
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    background-color: #2e3eca;
+    background-color: #46220f;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -2326,7 +2336,7 @@ blockquote footer, blockquote small, blockquote .small {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #2e3eca;
+    background-color: #46220f;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
